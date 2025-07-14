@@ -1,12 +1,44 @@
 [project]
 name = "sphinx-iconify"
-version = "0.1.0"
-description = "A sphinx role for icons, powered by iconify."
+dynamic = ["version"]
+description = "A sphinx role allowing you to embed icons from over 200,000 open-source vector icons."
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
     "sphinx",
 ]
+license-files = ["LICENSE"]
+authors = [
+    {name = "Hsiaoming Yang", email = "me@lepture.com"},
+]
+classifiers = [
+    "Framework :: Sphinx",
+    "Framework :: Sphinx :: Extension",
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+    "Topic :: Documentation",
+    "Topic :: Software Development :: Documentation",
+]
+
+[project.urls]
+Source = "https://github.com/lepture/sphinx-iconify"
+Documentation = "https://sphinx-iconify.lepture.com/"
+Sponsors = "https://github.com/sponsors/lepture"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = {attr = "sphinx_iconify.__version__"}
 
 [dependency-groups]
 dev = [
@@ -16,6 +48,7 @@ dev = [
 ]
 docs = [
     "shibuya>=2025.5.30",
+    "sphinx-design",
 ]
 
 [tool.ruff]

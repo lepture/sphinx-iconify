@@ -15,6 +15,7 @@ release = "0.1.0"
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
+    "sphinx_design",
     "sphinx_iconify",
 ]
 
@@ -29,6 +30,11 @@ html_theme = "shibuya"
 
 html_theme_options = {
     "page_layout": "simple",
+    "accent_color": "indigo",
+    "twitter_creator": "lepture",
+    "twitter_site": "lepture",
+    "twitter_url": "https://twitter.com/lepture",
+    "github_url": "https://github.com/lepture/sphinx-iconify",
 }
 
 # shibuya theme has built-in <iconify-icon>
