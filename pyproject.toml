@@ -1,0 +1,27 @@
+[project]
+name = "sphinx-iconify"
+version = "0.1.0"
+description = "A sphinx role for icons, powered by iconify."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "sphinx",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.16.1",
+    "ruff>=0.12.3",
+    "shibuya>=2025.5.30",
+    "types-docutils",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.mypy]
+strict = true
+python_version = "3.9"
+files = ["src/sphinx_iconify"]
+show_error_codes = true
+pretty = true
