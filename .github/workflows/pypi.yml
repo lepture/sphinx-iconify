@@ -1,4 +1,4 @@
-name: Release theme to PyPI
+name: Release to PyPI
 
 permissions:
   contents: write

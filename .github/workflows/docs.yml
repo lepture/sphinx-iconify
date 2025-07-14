@@ -1,9 +1,11 @@
-name: Deploy docs to Pages
+name: Deploy docs
 
 on:
   push:
     branches:
-    - main
+      - main
+    paths-ignore:
+      - ".github/*"
 
   workflow_dispatch:
 
