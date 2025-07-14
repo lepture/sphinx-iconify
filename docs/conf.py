@@ -20,6 +20,7 @@ extensions = [
 ]
 
 templates_path = ["_templates"]
+html_static_path = ["_static"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 
@@ -28,8 +29,12 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 html_theme = "shibuya"
 
+html_favicon = "_static/favicon.svg"
+
 html_theme_options = {
     "page_layout": "simple",
+    "light_logo": "_static/logo.svg",
+    "dark_logo": "_static/logo.svg",
     "accent_color": "indigo",
     "twitter_creator": "lepture",
     "twitter_site": "lepture",
