@@ -21,6 +21,7 @@ Install
 and can be easily installed using pip and uv.
 
 .. tab-set::
+    :class: outline
 
     .. tab-item:: :iconify:`devicon:pypi` pip
 
