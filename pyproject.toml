@@ -12,8 +12,10 @@ dependencies = [
 dev = [
     "mypy>=1.16.1",
     "ruff>=0.12.3",
-    "shibuya>=2025.5.30",
     "types-docutils",
+]
+docs = [
+    "shibuya>=2025.5.30",
 ]
 
 [tool.ruff]

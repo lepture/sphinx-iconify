@@ -513,8 +513,10 @@ dependencies = [
 dev = [
     { name = "mypy" },
     { name = "ruff" },
-    { name = "shibuya" },
     { name = "types-docutils" },
+]
+docs = [
+    { name = "shibuya" },
 ]
 
 [package.metadata]
@@ -524,9 +526,9 @@ requires-dist = [{ name = "sphinx" }]
 dev = [
     { name = "mypy", specifier = ">=1.16.1" },
     { name = "ruff", specifier = ">=0.12.3" },
-    { name = "shibuya", specifier = ">=2025.5.30" },
     { name = "types-docutils" },
 ]
+docs = [{ name = "shibuya", specifier = ">=2025.5.30" }]
 
 [[package]]
 name = "sphinxcontrib-applehelp"
