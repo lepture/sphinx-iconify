@@ -1,8 +1,6 @@
-"""A sphinx extension for designing beautiful, view size responsive web components."""
-
 from typing import TYPE_CHECKING
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 if TYPE_CHECKING:
     from typing import TypedDict
