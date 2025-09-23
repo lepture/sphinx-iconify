@@ -3,7 +3,7 @@ from sphinx.application import Sphinx
 from sphinx.environment import BuildEnvironment
 from sphinx.util.docutils import SphinxRole
 
-iconify_script_url = "https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"
+iconify_script_url = "https://code.iconify.design/iconify-icon/3.0.1/iconify-icon.min.js"
 
 
 class IconifyRole(SphinxRole):
