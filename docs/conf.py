@@ -40,6 +40,28 @@ html_theme_options = {
     "twitter_site": "lepture",
     "twitter_url": "https://twitter.com/lepture",
     "github_url": "https://github.com/lepture/sphinx-iconify",
+    "nav_links": [
+        {
+            "title": "Projects",
+            "children": [
+                {
+                    "title": "Shibuya",
+                    "url": "https://shibuya.lepture.com/",
+                    "summary": "Beautiful responsive theme for Sphinx.",
+                },
+                {
+                    "title": "Pygments Styles",
+                    "url": "https://pygments-styles.org/",
+                    "summary": "A curated collection of Pygments styles based on VS Code themes.",
+                },
+            ],
+        },
+        {
+            "title": "Sponsor me",
+            "url": "https://github.com/sponsors/lepture",
+            "external": True,
+        },
+    ],
 }
 
 # shibuya theme has built-in <iconify-icon>
