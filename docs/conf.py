@@ -44,3 +44,9 @@ html_theme_options = {
 
 # shibuya theme has built-in <iconify-icon>
 iconify_script_url = ""
+
+html_context = {
+    "source_type": "github",
+    "source_user": "lepture",
+    "source_repo": "sphinx-iconify",
+}
