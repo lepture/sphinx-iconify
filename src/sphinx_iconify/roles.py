@@ -9,9 +9,9 @@ iconify_script_url = "https://code.iconify.design/iconify-icon/3.0.1/iconify-ico
 
 class iconify_icon(nodes.General, nodes.Element):
     tagname = "iconify-icon"
-    local_attributes = ('icon', 'width', 'height')
+    local_attributes = ("icon", "width", "height")
     list_attributes = nodes.Element.basic_attributes + local_attributes
-    known_attributes = list_attributes + ('source',)
+    known_attributes = list_attributes + ("source",)
 
 
 def visit_iconify_icon_html(self: HTML5Translator, node: iconify_icon):
